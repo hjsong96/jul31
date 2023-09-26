@@ -89,7 +89,7 @@ class GUI03 extends JFrame{
 				System.out.println(bimando);
 				
 				//진짜 마지막 출력
-				if (bimando > 120) {
+				if (bimando > 120) {    
 					resultLb.setText(name + "님, 당신은 비만입니다.");
 				} else if (bimando < 80) {
 					resultLb.setText(name + "님, 당신은 저체중입니다.");

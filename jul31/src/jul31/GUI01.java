@@ -47,7 +47,7 @@ import javax.swing.JFrame;
 
 public class GUI01 {
 	Frame frame = new Frame("프레임 입니다.");
-	Button btn = new Button("클릭해"); // 하나의 컴포넌트는 객체이다.
+	Button btn = new Button("click"); // 하나의 컴포넌트는 객체이다.
 
 	public GUI01() {
 		frame.add(btn);
