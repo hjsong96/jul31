@@ -14,7 +14,7 @@ class GUI03 extends JFrame{
 	private JTextField nameTF;
 	private JTextField heightTF;
 	private JTextField weightTF;
-	private JButton resultBtn;
+	private JButton resultBtn;  
 	private JButton resetBtn;
 	private JLabel resultLb;
 	
@@ -88,7 +88,7 @@ class GUI03 extends JFrame{
 				System.out.println(stdWeight);
 				System.out.println(bimando);
 				
-				//진짜 마지막 출력
+				//진짜 마지막 출력  
 				if (bimando > 120) {    
 					resultLb.setText(name + "님, 당신은 비만입니다.");
 				} else if (bimando < 80) {
